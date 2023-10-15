@@ -6,16 +6,8 @@ public class IPhone implements AparelhoTelefonico {
   private boolean isPowerOn = false;
   private boolean isRinging = false;
 
-  public boolean isPowerOn() {
-    return isPowerOn;
-  }
-
   public void setPowerOn(boolean powerOn) {
     isPowerOn = powerOn;
-  }
-
-  public boolean isRinging() {
-    return isRinging;
   }
 
   public void setRinging(boolean ringing) {

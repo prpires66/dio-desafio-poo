@@ -3,7 +3,7 @@ package main.classes;
 import main.interfaces.NavegadorInternet;
 
 public class Safari implements NavegadorInternet {
-
+  private String url;
   @Override
   public void exibirPagina(String url) {
     System.out.println("Exibindo a página " + url);
@@ -16,6 +16,6 @@ public class Safari implements NavegadorInternet {
 
   @Override
   public void atualizarPagina() {
-    System.out.println("Atualizano a visualização da página");
+    System.out.println("Atualizano a visualização da página " + this.url);
   }
 }

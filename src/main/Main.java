@@ -20,7 +20,7 @@ public class Main {
     iPhone.atender();
     iPhone.setRinging(true);
     iPhone.atender();
-    iPhone.iniciarCorrerioVoz(99886611);
+    iPhone.iniciarCorreioVoz(99886611);
 
     //Teste das funções do iPod (Tocar, Selecionar Música e Pausar
     System.out.println("\nTestando as funções do iPod");

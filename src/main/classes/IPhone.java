@@ -34,7 +34,7 @@ public class IPhone implements AparelhoTelefonico {
   }
 
   @Override
-  public void iniciarCorrerioVoz(Integer numeroTelefone) {
+  public void iniciarCorreioVoz(Integer numeroTelefone) {
     if (isPowerOn) {
       System.out.println("Iniciando correio de voz com o número " + numeroTelefone);
     } else {
